@@ -3,6 +3,8 @@
 # configs
 AUUID=444ed9b7-7fe3-47c3-b7be-db59859ce198
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
+echo $Xray_Newv
+sleep 200
 CADDYIndexPage=https://github.com/PavelDoGreat/WebGL-Fluid-Simulation/archive/master.zip
 CONFIGCADDY=https://raw.githubusercontent.com/jiufdsme/read/master/etc/Caddyfile
 CONFIGXRAY=https://raw.githubusercontent.com/jiufdsme/read/master/etc/xray.json
